@@ -55,6 +55,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".merit_prisoner",    "Prisoner"},
     {".semblance", "Semblance"},
     {".NiceHoboNPC", "Nice Hobo"},
+    {".NiceHobo", "Nice Hobo"},
 
     {".guard_nomad", "Nomad Guard"},
     {".gremor_nomad", "Gremor Nomad"},
@@ -145,6 +146,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".NiceHobo", "Nice Hobo"},
     {".necromancer", "Necromancer"},
     {".hive_scout", "Hive Scout"},
     {".NiceHoboNPC", "Nice Hobo"},
