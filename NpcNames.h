@@ -22,6 +22,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".megalodaunt", "Megalodaunt"},
     {".megalodaunt_alpha", "Alpha Megalodaunt"},
     {".megalodaunt_legendary", "Crimson Megalodaunt"},
+    {".megalodaunt_prime", "Prime Megalodaunt"},
     {".mecha_megalodaunt", "Mechalodaunt"},
 
     {".lionfish", "Lionfish"},
