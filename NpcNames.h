@@ -66,6 +66,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".legion_jav", "Dick Thrower"},
     {".legionsoldier", "Legion Soldier"},
     {".legion_soldier", "Legion Soldier"},
+    {".legion_captain", "Legion Captain"},
 
     {".authority_soldier", "Authority Soldier"},
     {".authority_officer", "Authority Officer"},
@@ -149,6 +150,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".legion_captain", "Legion Captain"},
     {".golden_warrior", "Golden Warrior"},
     {".goldenwarriorspeak", "Golden Warrior"},
     {".NiceHobo", "Nice Hobo"},
