@@ -1,15 +1,3 @@
-#pragma once
-
-#include <unordered_map>
-#include <string>
-
-struct NPCNamesInfo {
-    bool useless;
-    bool boss;
-
-    NPCNamesInfo() : useless(false), boss(false) {}
-};
-
 const std::unordered_map<std::string, std::string> NPCNames =
 {
     {".mudskipper_explode", "Mudskipper Explode"},
