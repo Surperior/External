@@ -57,6 +57,9 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".NiceHoboNPC", "Nice Hobo"},
     {".NiceHobo", "Nice Hobo"},
 
+    {".golden_warrior", "Golden Warrior"},
+    {".goldenwarriorspeak", "Golden Warrior"},
+
     {".guard_nomad", "Nomad Guard"},
     {".gremor_nomad", "Gremor Nomad"},
 
@@ -146,6 +149,8 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".golden_warrior", "Golden Warrior"},
+    {".goldenwarriorspeak", "Golden Warrior"},
     {".NiceHobo", "Nice Hobo"},
     {".necromancer", "Necromancer"},
     {".hive_scout", "Hive Scout"},
