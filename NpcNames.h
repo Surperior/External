@@ -142,6 +142,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".titus", "Big monkey"},
     {".theduke", "Duke <3"},
     {".ferryman", "Ferrygay"},
+    {".monky", "Titus Man"},
 
     // Misc
 
