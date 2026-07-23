@@ -3,9 +3,12 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".mudskipper_explode", "Mudskipper Explode"},
     {".mudskipper_blaster", "Mudskipper"},
     {".mudskipper", "Mudskipper"},
+    {".rotskipper", "Rotskipper"},
     {".mineskipper", "Mineskipper"},
     {".miniskipper", "Miniskipper"},
     {".mineskipper_explode", "Mineskipper"},
+
+    {".angel", "Angel"},
 
     {".crocco",  "Thresher"},
     {".crocco_void",  "Void Thresher"},
@@ -38,6 +41,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".dukecultist", "Duke Cultist"},
     {".bandit",    "Bandit"},
+    {".special_thug", "Special Thug"},
     {".banditleader", "Bandit Leader"},
     {".bountyhunter", "Bounty Hunter"},
     {".assassin",    "Assassin"},
@@ -46,17 +50,22 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".whaler_support", "Whaler Support"},
     {".pirate_black", "Pirate Niger"},
     {".hostage_etrean",    "Hostage"},
+    {".hostage_pathfinder",    "Hostage"},
+    {".hostage_nomad",    "Hostage"},
     {".merit_prisoner",    "Prisoner"},
     {".semblance", "Semblance"},
+    {".NiceHoboNPC", "Nice Hobo"},
 
     {".guard_nomad", "Nomad Guard"},
     {".gremor_nomad", "Gremor Nomad"},
 
     {".legion_jav", "Dick Thrower"},
     {".legionsoldier", "Legion Soldier"},
+    {".legion_soldier", "Legion Soldier"},
 
     {".authority_soldier", "Authority Soldier"},
     {".authority_officer", "Authority Officer"},
+    {".authority_officer_RAID", "Authority Officer"},
     {".guard_authority",    "Authority Guard"},
     {".authority_lieutenant",    "Authority Lieutinant"},
     {".authority_captain",    "Authority Captain"},
@@ -69,20 +78,29 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".authority_thundercaptain", "Authority Thunder Captain"},
 
     {".guard_union", "Union Guard"},
-    {".figter_union", "Union Fighter"},
+    {".fighter_union", "Union Fighter"},
 
     {".summer_thug", "Summer thug"},
     {".guard_summer", "Summer Guard"},
 
     {".soldier_etrean", "Etrean Soldier"},
-    {".soldier_etrean_strong", "Strong Etrean Soldier"},
+    {".soldier_etrean_strong", "Etrean Soldier"},
+    {".guard_etrean_royal", "Royal Guard"}
     {".guard_bladetemple", "Temple Guard"},
+
+    {".ministry_scout", "Ministry Scout"},
+    {".ministry_captain", "Ministry Captain"},
+    {".necromancer", "Necromancer"},
+
+    {".hive_scout", "Hive Scout"},
 
     {".master_ice", "Ice Songseeker"},
     {".master_lightning", "Lightning Songseeker"},
     {".master_wind", "Wind Songseeker"},
     {".master_fire", "Flame Songseeker"},
     {".maljuror", "Maljuror"},
+
+    {".zana", "The Poser Himself"},
 
     {".roguemech", "Adam Smasher"},
 
@@ -116,6 +134,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".avatar", "Scion of Ethiron"},
     {".titus", "Big monkey"},
     {".theduke", "Duke <3"},
+    {".ferryman", "Ferrygay"},
 
     // Misc
 
@@ -126,6 +145,13 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".necromancer", "Necromancer"},
+    {".hive_scout", "Hive Scout"},
+    {".NiceHoboNPC", "Nice Hobo"},
+    {".special_thug", "Special Thug"},
+    {".ministry_scout", "Ministry Scout"},
+    {".rotskipper", "Rotskipper"},
+    {".legion_soldier", "Legion Soldier"},
     {".gremor_nomad", "Gremor Nomad"},
     {".soldier_etrean_strong", "Strong Etrean Soldier"},
     {".dukecultist", "Duke Cultist"},
@@ -144,13 +170,15 @@ const std::unordered_map<std::string, std::string> UselessNPCs =
     {".guard_nomad", "Nomad Guard"},
     {".mudskipper_blaster", "Mudskipper"},
     {".whaler_support", "Whaler Support"},
-    {".figter_union", "Union Fighter"},
+    {".fighter_union", "Union Fighter"},
     {".diver_apprentice", "Diver Apprentice"},
     {".mudskipper", "Mudskipper"},
     {".watcher", "Watcher"},
     {".guard_celter", "Celtor Guard"},
     {".guard_authority",    "Authority Guard"},
     {".hostage_etrean",    "Hostage"},
+    {".hostage_pathfinder",    "Hostage"},
+    {".hostage_nomad",    "Hostage"},
     {".miniskipper", "Miniskipper"},
     {".guard_journeymandiver", "diver guard"},
     {".guard_union", "Union Guard"},
