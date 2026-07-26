@@ -3,7 +3,7 @@
 #include <cstdint>
 #include <string>
 namespace Offsets {
-    inline std::string ClientVersion = "version-ed2b47b81f08484a";
+    inline std::string ClientVersion = "version-9affbe66b2624d20";
 
     namespace AirProperties {
          inline constexpr uintptr_t AirDensity = 0x18;
