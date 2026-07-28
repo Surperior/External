@@ -64,6 +64,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".guard_nomad", "Nomad Guard"},
     {".gremor_nomad", "Gremor Nomad"},
+    {".gremor_nomad_leader", "Leader Nomad"},
 
     {".legion_jav", "Dick Thrower"},
     {".legionsoldier", "Legion Soldier"},
