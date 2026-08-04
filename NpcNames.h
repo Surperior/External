@@ -28,6 +28,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".lionfish", "Lionfish"},
 
     {".brainsucker", "Brainsucker"},
+    {".brainsucker_weak", "Brainsucker"},
 
     {".enforcer", "Enforcer"},
 
@@ -38,6 +39,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".stoneknight", "Stone Knight"},
     {".moonknight", "Moon Knight"},
+    {".starknight", "Star Knight!!!!"},
 
     {".golem", "Golem"},
 
@@ -92,6 +94,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".summer_thug", "Summer thug"},
     {".guard_summer", "Summer Guard"},
+    {".summer_gunslinger", "Summer Gunman"},
 
     {".soldier_etrean", "Etrean Soldier"},
     {".soldier_etrean_strong", "Etrean Soldier"},
@@ -104,6 +107,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".necromancer", "Necromancer"},
 
     {".hive_scout", "Hive Scout"},
+    {".guard_hive", "Hive Guard"},
 
     {".master_ice", "Ice Songseeker"},
     {".master_lightning", "Lightning Songseeker"},
@@ -158,6 +162,8 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".guard_hive", "Hive Guard"},
+    {".summer_gunslinger", "Summer Gunman"},
     {".pathfinder",    "Pathfinder"},
     {".deepknight",    "Deep Knight"},
     {".legion_captain", "Legion Captain"},
