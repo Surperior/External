@@ -43,6 +43,8 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".dukecultist", "Duke Cultist"},
     {".bandit",    "Bandit"},
+    {".pathfinder",    "Pathfinder"},
+    {".deepknight",    "Deep Knight"},
     {".special_thug", "Special Thug"},
     {".banditleader", "Bandit Leader"},
     {".bountyhunter", "Bounty Hunter"},
@@ -95,6 +97,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
     {".soldier_etrean_strong", "Etrean Soldier"},
     {".guard_etrean_royal", "Royal Guard"}
     {".guard_bladetemple", "Temple Guard"},
+    {".polis", "Polis"},
 
     {".ministry_scout", "Ministry Scout"},
     {".ministry_captain", "Ministry Captain"},
@@ -155,6 +158,8 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
 const std::unordered_map<std::string, std::string> UselessNPCs =
 {
+    {".pathfinder",    "Pathfinder"},
+    {".deepknight",    "Deep Knight"},
     {".legion_captain", "Legion Captain"},
     {".golden_warrior", "Golden Warrior"},
     {".goldenwarriorspeak", "Golden Warrior"},
