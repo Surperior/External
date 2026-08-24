@@ -234,6 +234,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameContainer = 0x70;
          inline constexpr uintptr_t Parent = 0x68;
          inline constexpr uintptr_t This = 0x8;
+         inline constexpr uintptr_t AttributeStorage = 0x40; 
     }
 
     namespace Lighting {
