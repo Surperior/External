@@ -1,3 +1,5 @@
+#include <cstdint>
+#include <string>
 namespace Offsets {
     inline std::string ClientVersion = "version-2366ba214ec740ca";
 
@@ -224,7 +226,7 @@ namespace Offsets {
          inline constexpr uintptr_t NameDisplayDistance = 0x1a0;
          inline constexpr uintptr_t NameOcclusion = 0x1a4;
          inline constexpr uintptr_t PlatformStand = 0x1cc;
-         inline constexpr uintptr_t PlatformStatePointer = 0x44d13412;
+         inline constexpr uintptr_t PlatformStatePointer = 0x5420dfc2;
          inline constexpr uintptr_t RequiresNeck = 0x1cd;
          inline constexpr uintptr_t RigType = 0x1b0;
          inline constexpr uintptr_t SeatPart = 0xf8;
