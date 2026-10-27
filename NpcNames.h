@@ -98,7 +98,7 @@ const std::unordered_map<std::string, std::string> NPCNames =
 
     {".soldier_etrean", "Etrean Soldier"},
     {".soldier_etrean_strong", "Etrean Soldier"},
-    {".guard_etrean_royal", "Royal Guard"}
+    {".guard_etrean_royal", "Royal Guard"},
     {".guard_bladetemple", "Temple Guard"},
     {".polis", "Polis"},
 
